@@ -3,7 +3,7 @@ function comvoltagestore () {
     homeScreen()
 }
 function homeScreen () {
-    appList = [miniMenu.createMenuItem("Logout", assets.image`logoutIcon`), miniMenu.createMenuItem("voltage!store", assets.image`voltageStoreIcon`)]
+    appList = [miniMenu.createMenuItem("Logout",assets.image`logoutIcon`), miniMenu.createMenuItem("voltage!store", assets.image`voltageStoreIcon`)]
     myMenu = miniMenu.createMenuFromArray(appList)
     myMenu.setBounceOnWall(true)
     myMenu.setStyleProperty(miniMenu.StyleKind.DefaultAndSelected, miniMenu.StyleProperty.IconOnly, 1)
